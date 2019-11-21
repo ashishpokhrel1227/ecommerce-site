@@ -1,0 +1,8 @@
+env
+.env
+media_root
+Pipfile
+Pipfile.lock
+mydatabase
+db.sqlite3
+.vscode

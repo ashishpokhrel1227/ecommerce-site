@@ -1,0 +1,6 @@
+{% load account %}{% load i18n %}{% autoescape off %}Hello from e-Greenoceries!
+
+To verify your account, go to {{ activate_url }}
+{% endautoescape %}
+{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}Thank you from e-Greenoceries!
+{% endblocktrans %}

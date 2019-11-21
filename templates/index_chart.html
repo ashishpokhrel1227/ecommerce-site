@@ -1,0 +1,76 @@
+{% extends 'base_chart.html' %}
+
+{% block content %}
+<div class='text-center'><b>
+Overall Business Analysis
+</b>
+</div>
+<div class="container">
+  <div class='row'>
+        <div class='col-sm'>
+        <canvas id="myChart" width="300" height="300">
+            <script>
+                $(document).ready(function(){
+                {% block jquery %}{% endblock %}
+                })
+            </script>
+        </canvas>
+        </div>
+        <div class="col-sm">
+        <canvas id="myChart2" width="300" height="300">
+            <script>
+                $(document).ready(function(){
+                {% block jquery2 %}{% endblock %}
+                })
+            </script>
+        </canvas>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class='row'>
+        <div class='col-sm'>
+        <canvas id="myChart3" width="300" height="300">
+            <script>
+                $(document).ready(function(){
+                {% block jquery3 %}{% endblock %}
+                })
+            </script>
+        </canvas>
+        </div>
+        <div class="col-sm">
+        <canvas id="myChart4" width="300" height="300">
+            <script>
+                $(document).ready(function(){
+                {% block jquery4 %}{% endblock %}
+                })
+            </script>
+        </canvas>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class='row'>
+        <div class='col-sm'>
+        <canvas id="myChart5" width="300" height="300">
+            <script>
+                $(document).ready(function(){
+                {% block jquery5 %}{% endblock %}
+                })
+            </script>
+        </canvas>
+        </div>
+        <div class="col-sm">
+        <canvas id="myChart6" width="300" height="300">
+            <script>
+                $(document).ready(function(){
+                {% block jquery6 %}{% endblock %}
+                })
+            </script>
+        </canvas>
+    </div>
+  </div>
+</div>
+</main>
+{% endblock content %}
